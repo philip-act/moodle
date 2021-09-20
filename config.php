@@ -13,7 +13,7 @@ $CFG->dbpass    = getenv('9eb5e93122bf7c765db9fc198849d7c33b8292e84766138205d0e3
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
-  'dbport' => getenv('DATABASE_PORT'),
+  'dbport' => getenv('5432'),
   'dbsocket' => '',
 );
 
